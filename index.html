@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rajambal Cottons - Premium Cotton Products</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://apis.google.com/js/api.js"></script>
+    <script src="https://accounts.google.com/gsi/client"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="/images/logo.svg" alt="Rajambal Cottons Logo" class="logo-icon">
+                <span class="logo-text">Rajambal Cottons</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Premium Cotton Products</h1>
+                <p>Experience the comfort and quality of Rajambal Cottons</p>
+                <a href="#products" class="btn btn-primary">Shop Now</a>
+            </div>
+        </section>
+
+        <section id="products" class="products">
+            <div class="container">
+                <h2>Our Products</h2>
+                <button id="authorize_button" style="display: none;">Load Products</button>
+                <div class="product-grid">
+                    <!-- Product cards will be dynamically added here -->
+                </div>
+                <div class="more-products-button">
+                    <a href="products.html" class="btn btn-primary">More Products</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="video" class="video">
+            <div class="container">
+                <h2>Our Story</h2>
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/ksgnHnXL-PI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2>About Rajambal Cottons</h2>
+                <div class="about-content">
+                    <div class="about-image">
+                        <img src="https://images.unsplash.com/photo-1606914469725-e398d2f1d7ee?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Cotton field">
+                    </div>
+                    <div class="about-text">
+                        <p>Rajambal Cottons has been a trusted name in premium cotton products for over 50 years. Our commitment to quality and sustainability sets us apart in the textile industry.</p>
+                        <p>We source the finest cotton and use eco-friendly production methods to create comfortable, durable, and stylish clothing for our customers.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <div class="contact-content">
+                    <form>
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <textarea placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                    <div class="map-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.0647748982713!2d79.70246931482038!3d12.835543990947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52c1df7e7c2c6d%3A0x5c0d8d688e5aea9f!2s37%2C%20Mettu%20St%2C%20Ennaikkaran%2C%20Kanchipuram%2C%20Tamil%20Nadu%20631501%2C%20India!5e0!3m2!1sen!2sus!4v1623344120978!5m2!1sen!2sus" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect With Us</h3>
+                    <div class="social-icons">
+                        <a href="#" target="_blank">Facebook</a>
+                        <a href="#" target="_blank">Instagram</a>
+                        <a href="#" target="_blank">Twitter</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <p>37, Mettu Street, Kanchipuram</p>
+                    <p>Email: <a href="mailto:Prabhu.Vajjiram@yahoo.com">Vajjiram</a></p>
+                    <p>Phone: +91-44-67259797, +91-9443369336</p>
+                    <p>Fax: +91-44-27233699</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Rajambal Cottons. All rights reserved. | Designed by Prabu Vajjiram</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/js/main.js"></script>
+</body>
+</html>
